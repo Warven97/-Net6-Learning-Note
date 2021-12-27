@@ -1,0 +1,13 @@
+date:2021/12/27
+1.HttpContext.Session.SetString() 需要注册Session
+	Program.cs
+   	 	builder.Services.AddSession();
+    	app.UseSession();
+
+2.View()传参时注意参数的数据类型
+    object：model
+    string：viewname
+
+3.config文件属性：始终复制
+
+4.VS2022不能连接MySQL数据库 
